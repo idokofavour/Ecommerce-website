@@ -1,0 +1,60 @@
+.hero {
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    align-items: center;
+}
+
+.heroLeft {
+    flex: 1;
+    justify-content: center;
+    gap: 20px;
+    /* line-height: 1.1; */
+    padding-left: 180px;
+
+}
+
+.heroLeft h2 {
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+    
+}
+
+.heroLeft p {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heroHandIcon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.heroHandIcon img {
+    max-width: 105px;
+}
+
+.heroLatestBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    max-width: 280px;
+    max-height: 70px;
+    padding: 10px 0;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+} 
+
+.heroRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
