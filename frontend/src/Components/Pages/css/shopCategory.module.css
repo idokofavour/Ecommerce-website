@@ -5,7 +5,7 @@
 
 }
 
-.shopcategoryIndexSort{
+.shopcategoryIndexSort {
     display: flex;
     margin: 0px 170px;
     justify-content: space-between;
@@ -30,4 +30,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
+}
+
+.shopcatgoryLoadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px auto;
+    max-width: 233px;
+    padding: 12px 0;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+
 }

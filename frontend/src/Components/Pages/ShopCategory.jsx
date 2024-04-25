@@ -20,9 +20,8 @@ export default function ShopCategory(props) {
       </div>
       <div className={styles.shopcategoryProducts}>
         {all_product.map((item, i) => {
-        console.log(item.category);
 
-        // Error message category is not defined
+          // Error message category is not defined
           if (props.category === item.category) {
             return (
               <Item
@@ -32,13 +31,14 @@ export default function ShopCategory(props) {
                 image={item.image}
                 new_price={item.new_price}
                 old_price={item.old_price}
-                />
-              );
-            } else {
-              return null;
-            }
+              />
+            );
+          } else {
+            return null;
+          }
         })}
       </div>
+      <div className={styles.shopcatgoryLoadmore}>Explore More</div>
     </div>
   );
 }
