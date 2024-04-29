@@ -1,6 +1,9 @@
+import CartItems from "../CartItems/CartItems";
 
 export default function Cart() {
   return (
-    <div>Cart</div>
-  )
+    <div>
+      <CartItems />
+    </div>
+  );
 }
